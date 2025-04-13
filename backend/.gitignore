@@ -1,0 +1,9 @@
+# Environment variables
+
+
+# Node modules
+node_modules/
+.env
+# Lock file
+.eslintrc.json
+package-lock.json.

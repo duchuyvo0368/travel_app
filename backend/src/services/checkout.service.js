@@ -25,12 +25,6 @@ class CheckoutService {
 			{
 				path: "tours.transports",
 			},
-<<<<<<< HEAD
-=======
-			{
-				path: "tours.hotels",
-			},
->>>>>>> 75f286e70ee64fa18b26cb25ca15aba17e913e78
 		]);
 
 		let { tours } = cart;

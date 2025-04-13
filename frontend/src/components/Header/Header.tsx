@@ -5,8 +5,10 @@ import Alert from '../Alert/Alert';
 import './Header.css';
 
 const Header: React.FC = () => {
+    // isLoggingOut is used in the handleLogout function
     const [isLoggingOut, setIsLoggingOut] = useState(false);
     const [showDropdown, setShowDropdown] = useState(false);
+    // showWelcomeAlert is used in the useEffect hook
     const [showWelcomeAlert, setShowWelcomeAlert] = useState(false);
     const dropdownRef = useRef<HTMLDivElement>(null);
     const navigate = useNavigate();

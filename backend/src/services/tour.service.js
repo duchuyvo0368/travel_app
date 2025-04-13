@@ -24,11 +24,7 @@ class TourService {
 				_id: new Types.ObjectId(tourId),
 			},
 			true,
-<<<<<<< HEAD
 			"category locations transports",
-=======
-			"category locations transports hotels",
->>>>>>> 75f286e70ee64fa18b26cb25ca15aba17e913e78
 		);
 		return tour;
 	};

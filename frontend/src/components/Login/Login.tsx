@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { authService } from '../../services/auth.service';
+// API_ROUTES is imported for future use
 import { API_ROUTES } from '../../config/api.routes';
 import Alert from '../Alert/Alert';
 import './Login.css';

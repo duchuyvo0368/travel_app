@@ -3,7 +3,7 @@ FROM node:20 AS build
 WORKDIR /frontend
 COPY package*.json ./
 RUN npm install
-COPY . .
+COPY . .  # Copy phần còn lại của mã nguồn
 RUN npm run build
 
 # --- Serve Phase ---

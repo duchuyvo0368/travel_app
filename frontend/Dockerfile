@@ -3,8 +3,10 @@ FROM node:20 AS build
 WORKDIR /frontend
 COPY package*.json ./
 RUN npm install
-COPY . .  
-RUN npm run build
+COPY . .
+
+# --- Debugging Step ---
+RUN ls -al /frontend && npm run build
 
 # --- Serve Phase ---
 FROM node:20
